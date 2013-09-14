@@ -19,10 +19,32 @@ echo "11" > /sys/class/gpio/export
 
 This creates the necessary files to enable the gpio pin. It automatically sets it as an output pin.
 
+The test needs to run as root user because it needs system files to control the pins.
+
+To run the test:
+~~~
+sudo ruby gpio_led/test.rb
+~~~
+
 ### Pi Piper Led ###
 No setup required.
 This test uses the Pi Piper Ruby gem which can be found on https://github.com/jwhitehorn/pi_piper
 
+The test needs to run as root user because it needs system files to control the pins.
+
+To run the test:
+~~~
+sudo ruby pi_piper_led/test.rb
+~~~
+
+
 ### Wiring Pi Led ###
 No setup required.
 The Wiring Pi Ruby library can be found on https://github.com/WiringPi/WiringPi-Ruby
+
+The test needs to run as root user because it needs system files to control the pins.
+
+To run the test:
+~~~
+sudo ruby wiring_pi_led/test.rb
+~~~
