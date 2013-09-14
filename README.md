@@ -1,6 +1,8 @@
 # Raspberry Pi (Model B) Experiments #
 Some experiments with my Raspberry Pi.
 
+![picture alt](http://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/09/Raspberry-Pi-GPIO-Layout-Revision-2.png) 
+
 ## LED Test ##
 My first project with the Raspberry Pi was trying out different Ruby libraries to turn on a LED. The hardware is very straightforward.
 Take a LED and connect the - to pin 9 and + to pin 11. 
